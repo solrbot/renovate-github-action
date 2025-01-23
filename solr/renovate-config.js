@@ -12,5 +12,6 @@ module.exports = {
   //baseBranches: ["main", "branch_9x"],
   //useBaseBranchConfig: "merge",
   allowedPostUpgradeCommands: ["./gradlew.*"],
-  dryRun: null
+  dryRun: null,
+  logLevel: "debug"
 };
