@@ -11,4 +11,5 @@ module.exports = {
   branchPrefix: "renovate-9x/",
   commitMessageSuffix: " (branch_9x)",
   dryRun: null,
+  extends: [":semanticCommitsDisabled"],
 };
