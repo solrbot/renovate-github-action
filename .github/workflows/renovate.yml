@@ -13,10 +13,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.1
       - name: Self-hosted Renovate
-        uses: renovatebot/github-action@v40.3.4
+        uses: renovatebot/github-action@v43.0.9
         with:
           configurationFile: solr/renovate-config.js
-          renovate-version: 38.124.1-full
+          renovate-version: 41.82.10-full
           token: ${{ secrets.RENOVATE_TOKEN }}
         env:
           RENOVATE_FORK_TOKEN: ${{ secrets.RENOVATE_FORK_TOKEN }}
