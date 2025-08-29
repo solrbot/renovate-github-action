@@ -5,10 +5,10 @@ module.exports = {
   platform: 'github',
   forkProcessing: "disabled",
   repositories: ['apache/solr'],
-  baseBranches: ["branch_9x"],
+  baseBranchPatterns: ["branch_9x"],
   useBaseBranchConfig: "merge",
   allowedCommands: ["./gradlew.*"],
   branchPrefix: "renovate-9x/",
   commitMessageSuffix: " (branch_9x)",
-  dryRun: "full",
+  dryRun: null,
 };
