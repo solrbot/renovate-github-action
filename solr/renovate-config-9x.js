@@ -1,6 +1,6 @@
 module.exports = {
   gitAuthor: 'SolrBot <solrbot@cominvent.com>',
-  gitIgnoredAuthors: ['renovate-bot'],
+  gitIgnoredAuthors: ['renovate-bot <renovate-bot@noreply.github.com>'],
   onboarding: false,
   requireConfig: "required",
   platform: 'github',
