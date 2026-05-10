@@ -2,7 +2,7 @@ name: Renovate
 on:
   schedule:
     # Run every 4th hour
-    - cron: '0 */4 * * *'
+    - cron: '0 3,9,15,21 * * *'
   # Or run on demand
   workflow_dispatch:
 
