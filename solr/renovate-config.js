@@ -12,7 +12,7 @@ module.exports = {
   // TODO: This is not working as expected. See https://github.com/renovatebot/renovate/issues/7850
   //baseBranches: ["main", "branch_9x"],
   //useBaseBranchConfig: "merge",
-  allowedCommands: ["./gradlew.*"],
+  allowedCommands: ["./gradlew.*", "install-tool java .*"],
   dryRun: null,
   extends: [":semanticCommitsDisabled"],
 };
