@@ -8,7 +8,7 @@ module.exports = {
   repositories: ['apache/solr'],
   baseBranchPatterns: ["branch_9x"],
   useBaseBranchConfig: "merge",
-  allowedCommands: ["./gradlew.*"],
+  allowedCommands: ["./gradlew.*", "install-tool java .*"],
   branchPrefix: "renovate-9x/",
   commitMessageSuffix: " (branch_9x)",
   dryRun: null,
